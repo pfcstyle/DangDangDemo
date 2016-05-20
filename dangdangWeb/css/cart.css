@@ -1,0 +1,56 @@
+/* CSS Document */
+*{ padding:0px; margin:0px; position:relative;}
+#content{ width:960px; font-size:12px; font-family:"ËÎÌו", Arial, Helvetica, sans-serif; color:#404040;}
+#content a{ text-decoration:none;}
+
+#body{ text-align:left; padding:15px 0px;}
+#body a{ color:blue;}
+#body a:hover{ color:red;}
+#body #tu{  height:27px; background:url(../images/bg_cart_title.gif) no-repeat; margin-bottom:15px;}
+#body ul{ display:block; width:960px; height:29px; border-top:2px solid #dFc9B2; background-color:#f7f4eb; border-bottom:1px solid #dFc9B2; overflow:hidden; list-style-type:none; color:#8a7152;}
+#body ul li{ float:left; line-height:28px; text-align:center;}
+#body ul li.name{ width:395px;}
+#body ul li.jifen{ width:102px;}
+#body ul li.lowprice{ width:144px;}
+#body ul li.sheng{ width:141px; background:url(../images/icon_cart.gif) no-repeat 87px -80px;}
+#body ul li.num{ width:93px;}
+#body ul li.operate{ width:85px;}
+
+#body #nogood{display:none;  padding:65px 0px;  border-bottom:1px solid #dFc9B2; margin-bottom:20px;}
+#body #nogood p{ height:40px; padding-top:25px; padding-left:380px;  background:url(../images/bg_cart_pic.gif) no-repeat 280px -820px;}
+
+#body #goodlist{ border-bottom:1px solid #dFc9B2;}
+
+#body #goodlist div.goodinfo{ height:74px; border-bottom:1px solid #dcdcdc;}
+#body #goodlist div.goodinfo span{ display:inline-block; text-align:center; height:44px; padding-top:30px; border-right:1px solid #dcdcdc; overflow:hidden;}
+#body #goodlist div.goodinfo span.mingcheng{ width:374px; height:56px; padding:9px 0px; padding-left:20px;   text-align:left;}
+#body #goodlist div.goodinfo span.mingcheng p{ position:absolute; left:86px; top:30px;}
+
+#body #goodlist div.goodinfo span.fenshu{ width:101px; }  
+#body #goodlist div.goodinfo span.dijia{ width:143px; color:#F00; }
+#body #goodlist div.goodinfo span.jiesheng{ width:140px;}
+#body #goodlist div.goodinfo span.shuliang{ width:72px; text-align:left; padding-left:20px;}
+#body #goodlist div.goodinfo span.caozuo{ width:85px; border-right:none;}
+#body #goodlist div.goodinfo span img{ border:1px solid #dcdcdc;}
+#body #goodlist div.goodinfo span input{ width:30px; height:20px; color:red; border:1px solid #dcdcdc; background:white; text-align:center;}
+#body #goodlist div.goodinfo span a.tiaoshu{ display:inline-block; width:16px; height:8px; border:1px solid #dcdcdc; position:absolute; left:54px; background:url(../images/icon_cart.gif) no-repeat 5px -58px;}
+#body #goodlist div.goodinfo span #xiangshang{ top:30px;}
+#body #goodlist div.goodinfo span #xiangxia{ top:42px; background-position:5px -67px;}
+	
+#body #goodlist div.goodinfo div.xiaoxidiv{ display:none; width:205px; height:85px; z-index:10001;  position:absolute; left:710px; top:-55px;}
+
+#body #goodlist div.goodinfo div.xiaoxidiv div.xinxidiv{ height:57px; padding:10px 6px; border:1px solid #dFc9B2; background-color:#f7f4eb; text-align:center; line-height:20px;}
+#body #goodlist div.goodinfo div.xiaoxidiv div.jiantoudiv{ height:6px; background:url(../images/p_window_b.gif) no-repeat 102px 0px; margin-top:-1px;}
+
+#body #goodlist div.goodinfo div.shanchudiv{ display:none; width:125px; height:55px; z-index:10001; position:absolute; left:852px; top:-25px;}
+#body #goodlist div.goodinfo div.shanchudiv div.neirongdiv{ height:35px; padding:7px 6px; border:1px solid #dFc9B2; background-color:#f7f4eb; text-align:center; line-height:20px;}
+#body #goodlist div.goodinfo div.shanchudiv div.arrowdiv{ height:6px; background:url(../images/p_window_b.gif) no-repeat 60px 0px; margin-top:-1px;}
+
+#body #jiesuan{ height:72px; padding:15px 8px;  border-bottom:1px solid #dFc9B2; overflow:hidden;}
+#body #jiesuan p{ text-align:right; font-weight:bold; font-size:16px;}
+#body #jiesuan p #qianshu{ color:red;}
+#body #jiesuan p #jixugouwu{ display:inline-block; height:19px; width:90px; padding-top:5px; padding-right:10px; font-size:12px; font-weight:normal; color:black; background:url(../images/bg_cart_pic.gif) no-repeat 0px -120px; overflow:hidden;}
+#body #jiesuan p #qujiesuan{  display:inline-block; height:35px; width:142px; background:url(../images/bg_cart_pic.gif) no-repeat 0px -80px; overflow:hidden;}
+
+
+

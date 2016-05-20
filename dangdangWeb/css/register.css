@@ -1,0 +1,39 @@
+/* CSS Document */
+*{ padding:0px; margin:0px; position:relative;}
+#content{ width:960px; font-size:12px; font-family:"ËÎÌו", Arial, Helvetica, sans-serif; color:#404040;}
+#content a{ text-decoration:none;}
+
+#body{ height:450px; margin:40px 0px; width:735px; padding:3px 5px; border:1px solid #ccc; text-align:left;}
+#body #zhucehelp{ position:absolute; top:-18px; left:686px;}
+#body #zhucehelp a{ color:#333;}
+#body #zhucewelcome{ height:54px; background:url(../images/zhuce2.gif) no-repeat; margin-bottom:1px;}
+#body #zhucewelcome #welcometu{ display:inline-block; width:172px; height:21px; background:url(../images/zhuce1.gif) no-repeat; position:absolute; left:50px; top:20px;}
+#body #zhucewelcome #zhuceshouji{ position:absolute; left:500px; top:30px;}
+
+#body #zhucebuzhou{ height:25px; background:url(../images/zhuce3.gif) no-repeat; margin-bottom:15px;}
+#body #zhucebuzhou #zhucetianxie{ font-weight:bold; position:absolute; left:150px; top:6px;}
+#body #zhucebuzhou #zhucechenggong{ position:absolute; left:500px; top:6px; color:#999;}
+
+#body p{ height:46px;}
+
+#body p label{ display:inline-block; text-align:right; width:182px; height:30px; padding-top:16px; font-size:14px;}
+
+#body p span.inputspan{ display:inline-block; width:220px; padding-left:10px; height:21px; padding-top:3px;  background:url(../images/zhuce4.gif) no-repeat; border:#b6b6b6 1px solid; border-left-color:#686868; border-top-color:#686868;}
+#body p span input{ border:none; width:200px; font: bold 15px Arial;height:19px; background:transparent;}
+#body p span.click{ background:url(../images/zhuce10.gif) no-repeat;}
+
+#body p span.tishispan{ color:green; display:none;}
+#body p span.checkok{ width:15px; height:11px; background:url(../images/zhuce9.gif) no-repeat;}
+#body p span.checkerror{width:179px; height:27px; background:url(../images/zhuce8.gif) no-repeat; padding-left:12px; padding-top:12px; color:red;}
+
+#body p.tup{ height:52px;}
+#body p img{ border:1px solid #ccc; width:230px; height:50px;}
+#body p #kanbuqingspan{position:absolute; left:426px; top:20px; color:#333;}
+
+#body p.testp{ background:#edffd5;}
+#body p.tongyip{padding-top:10px; padding-left:188px;}
+
+
+#body p button{ border:none; width:154px; height:39px; position:absolute; left:188px; top:7px;}
+.buttona{  background:url(../images/zhuce6.gif);}
+.buttonb{  background:url(../images/zhuce7.gif);}

@@ -1,0 +1,28 @@
+/* CSS Document */
+*{ padding:0px; margin:0px; position:relative;}
+#content{ width:960px; font-size:12px; font-family:"ËÎÌו", Arial, Helvetica, sans-serif; color:#404040;}
+#content a{ text-decoration:none;}
+
+#body{ height:400px;  margin:20px 0px; padding:0px 130px; overflow:hidden; text-align:left;}
+#body #name{ height:30px; background:yellow; font-size:16px; font-weight:bold; text-align:left; background:url(../images/xuxian.gif) repeat-x right bottom;}
+#body #datu{ height:300px; width:300px; padding:30px;}
+#body  img{ border:none;}
+#body #datu #remai{ display:inline-block; width:68px; height:68px; background:url(../images/tag_hot.png) no-repeat; position:absolute; left:262px; top:10px;}
+#body #datu #fangda{ display:inline-block; width:16px; height:16px; background:url(../images/fangdajing.gif) no-repeat; position:absolute; left:314px; top:314px;}
+#body #xiangqing{ width:340px; height:300px; padding:30px 0px; position:absolute; left:490px; top:30px;}
+#body #xiangqing #shangjia{ display:inline-block;  height:14px; background:url(../images/icon_sell.gif) no-repeat; padding-left:40px; padding-top:2px; font-weight:bold;}
+#body #xiangqing p{ height:30px;}
+#body #xiangqing p label{ display:inline-block; height:20px; padding-top:10px; color:#666;}
+#body #xiangqing p span.lowprice{ color:#F33; font-size:22px; font-weight:bold;}
+#body #xiangqing p span.youhuo{ color:#6C3; font-weight:bold;}
+#body #xiangqing #goumai{ height:60px; border:1px solid #F9F; padding:20px 15px; background:#FFC;}
+#body #xiangqing #goumai #shuliang{ display:inline-block; height:12px; padding-left:15px; color:blue; margin-left:6px; background:url(../images/warning2.gif) no-repeat;}
+#body #xiangqing #goumai button{ display:inline-block; width:144px; height:35px; border:none; }
+#body #xiangqing #goumai button.mai{ background:url(../images/but_buy.gif) no-repeat; margin-right:10px;}
+#body #xiangqing #goumai button.cang{ background:url(../images/but_collect.gif) no-repeat;}
+#body #xiangqing #goumai input{ border:1px solid #ccc; width:20px; height:15px;}
+#body #xiangqing #jifen{ margin-top:8px;}
+#body #xiangqing #jifen #fen,#body #xiangqing #jifen #qi{ color:#F99;}
+
+#productidlabel{ display:none;}
+#productsmallimage{ display:none;}

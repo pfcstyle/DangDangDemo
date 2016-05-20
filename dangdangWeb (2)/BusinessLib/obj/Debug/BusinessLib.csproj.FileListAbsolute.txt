@@ -1,0 +1,7 @@
+D:\我的专业\课程\课程实践\小学期\2014夏季学期\阶段开发\dangdangdemo\dangdangWeb (2)\BusinessLib\bin\Debug\BusinessLib.dll
+D:\我的专业\课程\课程实践\小学期\2014夏季学期\阶段开发\dangdangdemo\dangdangWeb (2)\BusinessLib\bin\Debug\BusinessLib.pdb
+D:\我的专业\课程\课程实践\小学期\2014夏季学期\阶段开发\dangdangdemo\dangdangWeb (2)\BusinessLib\obj\Debug\ResolveAssemblyReference.cache
+D:\我的专业\课程\课程实践\小学期\2014夏季学期\阶段开发\dangdangdemo\dangdangWeb (2)\BusinessLib\obj\Debug\BusinessLib.dll
+D:\我的专业\课程\课程实践\小学期\2014夏季学期\阶段开发\dangdangdemo\dangdangWeb (2)\BusinessLib\obj\Debug\BusinessLib.pdb
+D:\我的专业\课程\课程实践\小学期\2014夏季学期\阶段开发\dangdangdemo\dangdangWeb\Bin\BusinessLib.dll
+D:\我的专业\课程\课程实践\小学期\2014夏季学期\阶段开发\dangdangdemo\dangdangWeb\Bin\BusinessLib.pdb

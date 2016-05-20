@@ -1,0 +1,23 @@
+/* CSS Document */
+*{ padding:0px; margin:0px; position:relative;}
+#content{ width:960px; font-size:12px; font-family:"ËÎÌו", Arial, Helvetica, sans-serif; color:#404040;}
+#content a{ text-decoration:none;}
+
+#body{ height:328px; background: red url(../images/denglu2.bmp) no-repeat; padding-left:420px; padding-top:60px;}
+#body #loginshang{ width:451px; height:4px; background:url(../images/denglu3.png) no-repeat;}
+#body #loginzhong{ height:260px; width:419px; border-left:1px solid #ccc; border-right:1px solid #ccc; padding-left:30px; background-color:white;}
+#body #loginzhong p{ height:50px; padding-top:20px; text-align:left;}
+#body #loginzhong p #zuospan{ display:inline-block; width:88px; height:17px; background:url(../images/denglu3.png) no-repeat -146px -47px;}
+#body #loginzhong p #youspan{ display:inline-block; position:absolute; left:200px; top:26px; color:#999;}
+#body #loginzhong p a{ display:inline-block; height:24px; width:73px; background:url(../images/denglu3.png) no-repeat 0px -46px; position:absolute; left:300px; top:20px;}
+#body #loginzhong p a:hover{ background-position:-73px -46px;}
+#body #loginzhong div{padding-left:20px; height:26px; text-align:left;}
+#body #loginzhong div input{ height:22px; width:250px; border:none; padding:1px 1px;}
+#body #loginzhong div input.danji{ border:1px solid #0CF; padding:0px;}
+#body #loginzhong div label{ display:inline-block; width:45px; height:26px; text-align:right; padding-right:15px;}
+#body #loginzhong div span.inputspan{ display:inline-block; width:252px; height:24px; border:1px solid #ccc; margin-right:8px;}
+#body #loginzhong div span.helpspan{ color:#999; display:none; width:254px; height:18px; position:absolute; left:80px; top:0px; padding-top:8px;}
+#body #loginzhong div span.warnspan{ color:red; display:none; width:254px; height:18px; position:absolute; left:80px; top:0px; padding-top:8px;}
+#body #loginzhong div button{ display:inline-block; border:none; width:92px; height:26px; background:url(../images/denglu3.png) no-repeat -239px -46px;}
+#body #loginzhong div button.over{ background-position:-333px -45px;}
+#body #loginxia{ width:451px; height:4px; background:url(../images/denglu3.png) no-repeat 0px -4px;}

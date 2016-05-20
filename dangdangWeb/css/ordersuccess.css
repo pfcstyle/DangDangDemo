@@ -1,0 +1,18 @@
+/* CSS Document */
+*{ padding:0px; margin:0px; position:relative;}
+#content{ width:960px; font-size:12px; font-family:"ËÎÌו", Arial, Helvetica, sans-serif; color:#404040;}
+#content a{ text-decoration:none;}
+
+#body{  padding:15px 0px; text-align:left;}
+#body #tu{  height:27px; background:  url(../images/bg_cart_title.gif) no-repeat 0px -80px; margin-bottom:15px;}
+#body #tu a{ display:inline-block; height:27px; color:#666; font-size:14px; position:absolute; left:62px;  top:6px; }
+
+#body #tu a:hover{ color:red;}
+
+#body #xinxi{ border:2px solid #dFc9B2; padding:15px 20px;}
+#body #xinxi #dingbu{ line-height:65px;  padding-left:130px;}
+#body #xinxi #dingbu #oktu{ display:inline-block; width:35px; height:65px; background:url(../images/bg_success.gif) no-repeat; position:absolute; left:80px; top:10px;}
+#body #xinxi #dingbu #haospan{ font-size:15px; font-weight:bold;}
+#body #xinxi #zhongbu{ line-height:50px; padding-left:130px;}
+#body #xinxi #zhongbu #qianspan{ color:red; font-weight:bold;}
+#body #xinxi #dibu{ padding-left:80px; line-height:50px; border-top:1px solid #dFc9B2; margin-top:40px;}

@@ -1,0 +1,20 @@
+/* CSS Document */
+*{ padding:0px; margin:0px; position:relative;}
+#content{ width:960px; margin:0px auto; font-size:12px; font-family:"宋体", Arial, Helvetica, sans-serif; color:#404040;  height:600px; }
+#content a{ text-decoration:none;}
+
+
+#body{ padding:20px 0px; text-align:left;}
+#body div span.orderstate{ display:inline-block; width:138px; height:30px; background:url(../images/pic_myddorder.gif) no-repeat 0px -50px; line-height:30px; text-align:center;}
+
+
+#body div.orderlist{ padding:20px 10px; border:1px solid #A4D7CA; top:-1px;}
+
+#body div.orderlist table{ width:100%; border:none;}
+#body div.orderlist table tr.head td{ height:25px; line-height:25px; border:1px solid #D0D0D0; border-left:none; background:url(../images/tableone.gif) repeat-x; font-weight:bold; text-align:center; }
+#body div.orderlist table tr td{ border-bottom:1px solid #ddd; line-height:30px; text-align:center; padding:0px 4px;}
+
+#body div.orderlist table tr:hover{ background-color:#fffac5;}
+#body div.orderlist table tr td a.xiangqin{ text-decoration:none;}
+#body div.orderlist table tr td a.xiangqin:hover{ color:red;}
+#body div.orderlist table tr td a.xiangqin:visited{ color:green;}

@@ -1,0 +1,45 @@
+2014/7/10 15:59:34          http://localhost:3389/dangdangWeb/Index.aspx          执行 selectproductbycategoryid 存储过程时出异常:已成功与服务器建立连接，但是在登录过程中发生错误。 (provider: Shared Memory Provider, error: 0 - 管道的另一端上无任何进程。)
+2014/7/10 16:01:02          http://localhost:3389/dangdangWeb/Index.aspx          执行 selectproductbycategoryid 存储过程时出异常:用户 '' 登录失败。
+2014/7/14 9:52:02          http://localhost:3389/dangdangWeb/Index.aspx          执行 selectproductbycategoryid 存储过程时出异常:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+2014/7/17 11:10:35          http://localhost:3389/dangdangWeb/OrderSuccess.aspx?name=sd&dizhi=asc&youbian=asc&phone=asc&sendway=普通快递送货上门&payway=货到付款（现金）&yunfei=0&zonge=298.9          System.Data.SqlClient.SqlException (0x80131904): INSERT 语句与 CHECK 约束"CK__DANGDANG___DdOrd__1A14E395"冲突。该冲突发生于数据库"db_dangdang"，表"dbo.DANGDANG_ORDER", column 'DdOrderYunFei'。
+无法回滚 createid。找不到该名称的事务或保存点。
+EXECUTE 后的事务计数指示 BEGIN 和 COMMIT 语句的数目不匹配。上一计数 = 1，当前计数 = 2。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CommonOperationLib.DataAccess.InsertByProc(String procname, SqlParameter[] sp, SqlConnection conn, SqlTransaction tran) 位置 D:\我的专业\课程\课程实践\小学期\2014夏季学期\阶段开发\dangdangdemo\dangdangWeb (2)\CommonOperationLib\DataAccess.cs:行号 172
+2014/7/17 11:11:10          http://localhost:3389/dangdangWeb/OrderSuccess.aspx?name=DV&dizhi=SDV&youbian=SDV&phone=SDV&sendway=普通快递送货上门&payway=货到付款（现金）&yunfei=0&zonge=298.9          System.Data.SqlClient.SqlException (0x80131904): INSERT 语句与 CHECK 约束"CK__DANGDANG___DdOrd__1A14E395"冲突。该冲突发生于数据库"db_dangdang"，表"dbo.DANGDANG_ORDER", column 'DdOrderYunFei'。
+无法回滚 createid。找不到该名称的事务或保存点。
+EXECUTE 后的事务计数指示 BEGIN 和 COMMIT 语句的数目不匹配。上一计数 = 1，当前计数 = 2。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CommonOperationLib.DataAccess.InsertByProc(String procname, SqlParameter[] sp, SqlConnection conn, SqlTransaction tran) 位置 D:\我的专业\课程\课程实践\小学期\2014夏季学期\阶段开发\dangdangdemo\dangdangWeb (2)\CommonOperationLib\DataAccess.cs:行号 172
+2014/7/17 11:13:34          http://localhost:3389/dangdangWeb/OrderSuccess.aspx?name=sdvsv&dizhi=sdvwv&youbian=sdvvd&phone=dvsvd&sendway=普通快递送货上门&payway=货到付款（现金）&yunfei=0&zonge=130          System.Data.SqlClient.SqlException (0x80131904): INSERT 语句与 CHECK 约束"CK__DANGDANG___DdOrd__1A14E395"冲突。该冲突发生于数据库"db_dangdang"，表"dbo.DANGDANG_ORDER", column 'DdOrderYunFei'。
+无法回滚 createid。找不到该名称的事务或保存点。
+EXECUTE 后的事务计数指示 BEGIN 和 COMMIT 语句的数目不匹配。上一计数 = 1，当前计数 = 2。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CommonOperationLib.DataAccess.InsertByProc(String procname, SqlParameter[] sp, SqlConnection conn, SqlTransaction tran) 位置 D:\我的专业\课程\课程实践\小学期\2014夏季学期\阶段开发\dangdangdemo\dangdangWeb (2)\CommonOperationLib\DataAccess.cs:行号 172

@@ -1,0 +1,79 @@
+/* CSS Document */
+*{ padding:0px; margin:0px; position:relative;}
+#content{ width:960px; font-size:12px; font-family:"ËÎÌו", Arial, Helvetica, sans-serif; color:#404040;}
+#content a{ text-decoration:none;}
+
+#body{ text-align:left; padding:15px 0px;}
+
+#body #tu{  height:27px; background:url(../images/bg_cart_title.gif) no-repeat 0px -40px; margin-bottom:15px;}
+#body #tu a{ display:inline-block; height:21px; padding-top:6px; padding-left:60px; color:#666; font-size:14px;}
+#body #tu a:hover{ color:red;}
+#body #info{ border:2px solid #dFc9B2; margin-top:10px; padding:0px 20px;}
+#body #info div.infoitem{ padding-top:10px; border-bottom:1px solid #dFC9B2;}
+#body #info div.infoitem h3 a{ font-weight:normal; font-size:12px;}
+#body #info div.infoitem p.xinxi{ padding-left:30px; margin:15px 0px;}
+#body #info div.infoitem div.xuanze{ padding-left:30px; display:none;}
+#body #info div.infoitem div.xuanze div{  border-top:1px dotted #ccc;}
+#body #info div.infoitem div.xuanze div p.item{ margin:8px 0px;}
+#body #info div.infoitem div.xuanze div p.item span.warnspan{ padding-left:15px; color:red; display:none;}
+
+
+#body #info div.infoitem div.xuanze div p.item input.txtinput{ border:1px solid #ccc; padding:0px 5px; display:inline-block; width:90px; height:20px;}
+#body #info div.infoitem div.xuanze div p.item #dizhi{ width:350px;}
+
+#body #info div.infoitem div.xuanze div p.radioitem{ margin:8px 0px; padding-left:15px;}
+#body #info div.infoitem div.xuanze div p.radioitem input.radioinput{ position: absolute; left:0px; top:3px;}
+#body #info div.infoitem div.xuanze div p.radioitem input.radioinput1{ position: absolute; left:0px; top:0px;}
+
+#body #info div.infoitem p.xinxi #xiugaia{ float:right;}
+
+#body #info div.infoitem #liebiao{ padding-left:30px;}
+#body #info div.infoitem #liebiao ul{ display:block; width:886px; height:29px; border-top:1px solid #dFc9B2; background-color:#f7f4eb; border-bottom:1px solid #dFc9B2; overflow:hidden; list-style-type:none; color:#8a7152;}
+#body #info div.infoitem #liebiao ul li{ float:left; line-height:28px; text-align:center;}
+#body #info div.infoitem #liebiao ul li.name{ width:400px;}
+#body #info div.infoitem #liebiao ul li.lowprice{ width:200px;}
+#body #info div.infoitem #liebiao ul li.num{ width:86px;}
+#body #info div.infoitem #liebiao ul li.jiner{ width:200px;}
+
+#body #info div.infoitem #liebiao div{ width:886px; text-align:center;}
+#body #info div.infoitem #liebiao div span{ display:inline-block; height:26px; padding-top:10px; border-bottom:1px solid #ccc;}
+#body #info div.infoitem #liebiao div span.ming{ width:350px; text-align:left; padding-left:50px;}
+#body #info div.infoitem #liebiao div span.jia{ width:200px;}
+#body #info div.infoitem #liebiao div span.shu{ width:86px;}
+#body #info div.infoitem #liebiao div span.qian{ width:200px;}
+
+#body #info div.infoitem #fapiao{ padding-left:80px; padding-top:10px; overflow:visible;}
+#body #info div.infoitem #fapiao #jinertongji{ height:85px; width:170px; position:absolute; left:700px; top:15px; text-align:right; line-height:20px;}
+#body #info div.infoitem #fapiao #jinertongji span{ display:inline-block; width:60px; text-align:left;}
+#body #info div.infoitem #fapiao #jinertongji #zhifuspan{ color:red; font-weight:bold;}
+
+#body #info div.infoitem #fapiao a.headp{ display:inline-block; padding-left:20px; padding-top:1px; padding-bottom:1px; background:url(../images/icon_cart.gif) no-repeat 0px -210px; margin:8px 0px;}
+#body #info div.infoitem #fapiao a.headm{ background-position:0px -190px; }
+
+#body #info div.infoitem #fapiao div.fapiao{ display:none;  border:1px solid #dfc9b2; background-color:#f7f4eb; border-left:none; border-right:none; width:460px; padding:10px 20px; line-height:25px;}
+#body #info div.infoitem #fapiao div.fapiao label{ font-weight:bold;}
+#body #info div.infoitem #fapiao div.fapiao p.zhuyi{ color:#999;}
+
+#body #info div.infoitem #fapiao #fapiaodiv1{ height:105px;}
+#body #info div.infoitem #fapiao #fapiaodiv1 #quedingspan{ display:inline-block; width:58px; padding-left:2px; height:26px; background:url(../images/bg_cart_pic.gif) no-repeat 0px -620px; margin:6px 20px;}
+#body #info div.infoitem #fapiao #fapiaodiv1 #quedinga{ color:white; display:inline-block; width:58px; height:26px; background:url(../images/bg_cart_pic.gif) no-repeat -286px -620px; text-align:center;}
+#body #info div.infoitem #fapiao #fapiaodiv1 #quxiaospan{ display:inline-block; width:98px; padding-left:2px; height:26px; background:url(../images/bg_cart_pic.gif) no-repeat 0px -660px; margin:6px 20px;}
+#body #info div.infoitem #fapiao #fapiaodiv1 #quxiaoa{ color:white; display:inline-block; width:98px; height:26px; background:url(../images/bg_cart_pic.gif) no-repeat -246px -660px; text-align:center;}
+#body #info div.infoitem #fapiao #fapiaodiv1 #warnspan{ color:red; display:none;}
+
+#body #info div.infoitem #fapiao #fapiaodiv2{ height:80px; margin-bottom:10px;}
+#body #info div.infoitem #fapiao #fapiaodiv2 span.kas{ color:red; display:none; margin-left:10px;}
+#body #info div.infoitem #fapiao #fapiaodiv2 #jihuospan{ display:inline-block; width:58px; padding-left:2px; height:26px; background:url(../images/bg_cart_pic.gif) no-repeat 0px -620px; margin:6px 20px;}
+#body #info div.infoitem #fapiao #fapiaodiv2 #jihuoa{ color:white; display:inline-block; width:58px; height:26px; background:url(../images/bg_cart_pic.gif) no-repeat -286px -620px; text-align:center;}
+
+#body #info div.noborder{ border-bottom:none;}
+
+#body #info #tijiao{ height:110px; text-align:right; padding:15px 50px; line-height:33px;} 
+#body #info #tijiao p #gouxuanspan{ color:red; display:none;}
+#body #info #tijiao p #fuxuan{ position:relative; top:2px;}
+#body #info #tijiao p #yantu{ position:relative; left:0px; top:9px;}
+#body #info #tijiao p #tijiaoanniu{ display:inline-block; width:142px; height:33px; background:url(../images/bg_cart_pic.gif) no-repeat 0px -320px; top:5px;}
+
+
+#body #info div.infoitem div.xuanze div p.anniu{ height:25px; margin:15px 0px;}
+#body #info div.infoitem div.xuanze div p.anniu button{ width:115px; height:25px; background:url(../images/bg_cart_pic.gif) no-repeat 0px -360px; border:none; color:white;}

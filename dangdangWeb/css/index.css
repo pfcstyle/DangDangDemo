@@ -1,0 +1,93 @@
+/* CSS Document */
+*{ padding:0px; margin:0px; position:relative;}
+#content{ width:960px; font-size:12px; font-family:"宋体", Arial, Helvetica, sans-serif; color:#404040;}
+#content a{ text-decoration:none;}
+/*中部*/
+#body{text-align:left;}
+/*轮转广告*/
+#body #lunzhuan{ height:380px; padding-left:160px; padding-top:8px; overflow:hidden;}
+#body #lunzhuan #luntop{ height:50px; background:url(../images/luntoptu1.gif) no-repeat;}
+#body #lunzhuan #lunmain{ height:322px; margin-top:8px;}
+#body #lunzhuan #lunmain #lunmaintop{ width:548px; height:177px; border:1px solid #CCC;}
+#body #lunzhuan #lunmain #lunmaintop div{ position:absolute; left:420px; top:155px; }
+#body #lunzhuan #lunmain #lunmaintop div a{ display:inline-block; width:17px; height:15px; overflow:hidden; background:#fff url(../images/numbg.png) no-repeat; color:#0788d4; text-align:center; padding-top:2px; margin:0px 2px;}
+#body #lunzhuan #lunmain #lunmaintop div a:hover{ background-position:0 -20px; color:#fff;}
+#body #lunzhuan #lunmain #lunmaintop div a.lunshang{ background-position:0 -20px; color:#fff;}
+
+#body #lunzhuan #lunmain #lunmainbottom{  width:550px; height:143px; overflow:hidden;}
+#body #lunzhuan #lunmain #lunmainbottom p{ height:20px; padding-top:4px; font-size:14px; font-weight:bold; color:red;}
+#body #lunzhuan #lunmain #lunmainbottom #jinxuantu{ height:117px; border:1px solid #ccc;}
+#body #lunzhuan #lunmain #lunmainbottom #jinxuantu img{ border:none;}
+#body #lunzhuan #lunmain #lunmainbottom #jinxuantu a{ display:inline-block; width:136px; height:117px; overflow:hidden; padding-right:1px; background: url(../images/shuxian.png) no-repeat right 0px;}
+#body #lunzhuan #lunmain #lunmainbottom #jinxuantu a.youa{ padding:0px;}
+
+#body #lunzhuan #lunmain #lunmainright{ width:240px; height:322px; overflow:hidden; position:absolute; left:560px; top:0px;}
+#body #lunzhuan #lunmain #lunmainright #dengluzhuce a{ display:inline-block; width:120px; height:28px; overflow:hidden; background:url(../images/common3.gif) no-repeat;}
+#body #lunzhuan #lunmain #lunmainright #dengluzhuce a.denglua{ background-position:0px -60px;}
+#body #lunzhuan #lunmain #lunmainright #dengluzhuce a.denglua:hover{ background-position:0px -90px;}
+#body #lunzhuan #lunmain #lunmainright #dengluzhuce a.zhucea:hover{ background-position:0px -30px;}
+
+#body #lunzhuan #lunmain #lunmainright #gonggaoban{ height:219px; margin:10px 0px; background:url(../images/top_b.gif) repeat-y; border-bottom:1px solid #ccc;}
+#body #lunzhuan #lunmain #lunmainright #gonggaoban h2{ height:26px; background:url(../images/common4.gif) no-repeat 0px -625px; font-size:12px;}
+#body #lunzhuan #lunmain #lunmainright #gonggaoban h2 span{ display:inline-block; width:80px; height:18px; text-align:center; padding-top:8px;}
+#body #lunzhuan #lunmain #lunmainright #gonggaoban h2 span.ka{ background: url(../images/common4.gif) no-repeat 0px -280px; color:red;}
+#body #lunzhuan #lunmain #lunmainright #gonggaoban div{ width:240px; height:193px; padding:2px; overflow:hidden;}
+#body #lunzhuan #lunmain #lunmainright #gonggaoban div p{ height:50px; background:url(../images/gonggaobg.png) no-repeat; padding:4px;}
+#body #lunzhuan #lunmain #lunmainright #gonggaoban div p img{ border:1px solid #ccc;}
+#body #lunzhuan #lunmain #lunmainright #gonggaoban div ul{ width:216px; height:134px; padding-top:5px; padding-left:10px; list-style-type:none; text-align:left;}
+#body #lunzhuan #lunmain #lunmainright #gonggaoban div ul li{ line-height:22px; border-bottom:1px solid #FCF;}
+#body #lunzhuan #lunmain #lunmainright #gonggaoban div ul li a{ color:#666;}
+#body #lunzhuan #lunmain #lunmainright #gonggaoban div ul li a:hover{ color:#F03;}
+#body #lunzhuan #lunmain #lunmainright #gonggaoban div ul li span.hongspan{ color:red;}
+
+#body #lunzhuan #lunmain #lunmainright #gonggaoguang{ border:1px solid #ccc;}
+
+/*广告*/
+#body #guanggao{ height:80px; background:url(../images/guanggao.jpg) no-repeat; margin:20px 0px;}
+/*美妆个护*/
+
+#body #meizhuang h2{ height:20px; padding-bottom:6px; border-bottom:2px solid #999; font-size:12px; font-weight:100; margin-bottom:10px;}
+#body #meizhuang h2 p.meitu{ display:inline-block; width:112px; height:20px; overflow:hidden; background:url(../images/common2.gif) no-repeat 0px -60px;}
+#body #meizhuang h2 div{ position:absolute; left:390px; top:5px;}
+#body #meizhuang h2 div span{ display:inline-block; padding:0px 6px;}
+#body #meizhuang h2 div a{ color:#666;}
+#body #meizhuang h2 div a:hover{ color:red;}
+
+#body #meizhuang #chanpin{ height:278px;  padding-bottom:10px;}
+
+#body #meizhuang #chanpin #zuolie{ width:206px; height:274px; overflow:hidden; border:1px solid #CCC;} 
+#body #meizhuang #chanpin #zuolie a.img{ position:absolute; left:0px; top:0px; display:none;}
+#body #meizhuang #chanpin #zuolie img{ border:none;}
+#body #meizhuang #chanpin #zuolie span{ display:inline-block; width:40px; height:9px; z-index:20; position:absolute; left:160px; top:10px;}
+#body #meizhuang #chanpin #zuolie span a{ display:inline-block; width:9px; height:9px; background:url(../images/common2.gif) no-repeat -240px -319px; margin-right:4px;}
+#body #meizhuang #chanpin #zuolie span a:hover{ background-position:-249px -319px;}
+#body #meizhuang #chanpin #zuolie span a.dangqian{ background-position:-249px -319px;}
+
+
+#body #meizhuang #chanpin #zhonglie{ width:492px; height:276px; overflow:hidden; position:absolute; left:219px; top:0px; text-align:center;}
+#body #meizhuang #chanpin #zhonglie img{ border:none;}
+#body #meizhuang #chanpin #zhonglie ul{ height:208px; list-style-type:none;}
+#body #meizhuang #chanpin #zhonglie ul li{ float:left; width:164px;}
+#body #meizhuang #chanpin #zhonglie ul li p{ margin:6px 0px;}
+#body #meizhuang #chanpin #zhonglie ul li p span{ color:red; font-size:14px; font-weight:bold; margin:0px 6px;}
+#body #meizhuang #chanpin #zhonglie ul li p span.lowprice{ color:#999; text-decoration:line-through;}
+
+#body #meizhuang #chanpin #zhonglie ul li a{ color:#666;}
+#body #meizhuang #chanpin #zhonglie ul li a:hover{ color:red; text-decoration:underline;}
+
+#body #meizhuang #chanpin #youlie{ width:240px; height:276px; overflow:hidden; position:absolute; left:720px; top:0px;}
+
+#body #meizhuang #chanpin #youlie #youshang{ height:115px; background:url(../images/common2.gif) no-repeat 0px -394px;}
+#body #meizhuang #chanpin #youlie #youshang div{ position:absolute; left:3px; top:35px;}
+#body #meizhuang #chanpin #youlie #youshang div a{ display:inline-block; width:72px; height:72px; border:1px solid #ccc; margin:0px 2px;}
+#body #meizhuang #chanpin #youlie #youshang div a:hover{ border-color:#F90;}
+#body #meizhuang #chanpin #youlie #youshang  div a span{ display:inline-block; width:53px; height:14px; background:url(../images/common2.gif) no-repeat -258px -318px; text-align:center; padding-top:2px; color:white; position:absolute; right:0px; bottom:0px;}
+#body #meizhuang #chanpin #youlie #youshang  div a img{ border:none;}
+
+#body #meizhuang #chanpin #youlie #youzhong{ height:73px; background:url(../images/youzhongtu.jpg) no-repeat; margin:10px 0px;}
+#body #meizhuang #chanpin #youlie #youxia{ height:68px; background:url(../images/common2.gif) no-repeat 0px -509px; text-align:left;}
+#body #meizhuang #chanpin #youlie #youxia  a{ display:inline-block; margin:3px 5px; width:70px; height:28px;overflow:hidden;}
+#body #meizhuang #chanpin #youlie #youxia  a img{ border:none;}
+/*关注*/
+#body #guanzhu{ height:80px; background:url(../images/zhongguangtu.jpg) no-repeat; margin-bottom:20px;}
+
